@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Producs LEXIS-STORE </title>
+    <link rel="stylesheet" href="me.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <div class="container"> 
+    <div class="navbar">
+    <div class="logo">
+        <a href="index.html" >    <img src="pics/storelogo1.png" width="125px"> </a>
+     </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="pics/cart.png" width="30px" height="30px">
+        <img src="pics/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+     </div>
+     
+     </div>
+    </div>
+
+    <!------------Single Product Details----------->
+
+
+    <div class="small-conatiner single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="pics/Amoksiklav-625Mg.png" width="70%" id="productImg">
+              
+
+            </div>
+
+
+            <div class="col-2">
+                
+                <h1> AMOKSIKLAV 625MG  </h1>
+                <h4>$15</h4>
+
+                <input type="number" value="1">
+                <a href="" class="btn" onclick="alert('Your item have been added successfuly')">Add To Cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <p>Amoksiklav 625 is an antibiotic used to treat various infections caused by bacteria, such as sinus infections, urine infections, skin infections, joint infections, and some infections. dental infection. </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!------Title------->
+    <div class="small-container">
+        <div class="row-row">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <img src="pics/epanol.jfif">
+            <h4>E-Panol </h4>
+            <p>$10</p>
+        </div>
+        <div class="col-4">
+            <img src="pics/viagra.jpg">
+            <h4>Viagra</h4>
+            <p>$20.66</p>
+        </div>
+        <div class="col-4">
+            <img src="pics/malar2.jpg">
+            <h4>Malar 2 Suspension <br>
+                Women's Mid-rise Graphic Training Leggings</h4>
+            <p>$25</p>
+        </div>
+        <div class="col-4">
+            <img src="pics/auntiemary.jfif">
+            <h4>FUTURE ICONS 3-STRIPES HOODIE
+            </h4>
+            <p>$60</p>
+        </div>
+    
+    </div>
+
+
+
+
+  
+    
+    </div>
+    </div>
+
+</div>
+
+
+
+<!---------------footer----------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS mobile phone</p>
+                <div class="app-logo">
+                  <img src="pics/app & playstore.png">
+               </div>
+            </div>
+            <div class="col-3">
+                
+                <img src="pics/ceo.jfif">
+                <p>I assure you , we provide the best of services in our Phamacy
+                </p>
+                <h3>
+                    OLIVIA GLOVER
+                </h3>
+            </div>
+              <div class="footer-col-3">
+                  <h3>Useful Links</h3>
+                  <ul>
+                      <li>Coupons</li>
+                      <li>Return Policy</li>
+                      <li>Blog Post</li>
+                      <li>Join Affiliate</li>
+                  </ul>
+              </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <a href="https://twitter.com/" target="_blank"> <ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://www.youtube.com/" target="_blank">  <ion-icon name="logo-youtube" style="color: red;"></ion-icon></a>
+            </div>
+        </div>
+        <hr>
+      <p class="copyright">Copyright 2023 IPMC Project</p>
+    </div>
+</div>
+<!--------JS FOR toggle menu-----It Shows the menu icon when you minimize------->
+<script>
+    var menuitems = document.getElementById("menuitems")
+    
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+if(menuitems.style.maxHeight == "0px")
+    {
+        menuitems.style.maxHeight = "200px";
+    }
+else{
+    menuitems.style.maxHeight = "0px";
+}
+}
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<!--------JS FOR toggle menu-----It Shows the menu icon when you minimize------->
+<script>
+    var menuitems = document.getElementById("menuitems")
+    
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+if(menuitems.style.maxHeight == "0px")
+    {
+        menuitems.style.maxHeight = "200px";
+    }
+else{
+    menuitems.style.maxHeight = "0px";
+}
+}
+
+
+<!-----js for product gallary------->
+   var productImg = document.getElementById("productImg")
+   var smallImg = document.getElementsByClassName("smallImg")
+
+   smallImg[0].onclick = function()
+   {
+    productImg.src = smallImg[0].src;
+   }
+   smallImg[1].onclick = function()
+   {
+    productImg.src = smallImg[1].src;
+   }
+   smallImg[2].onclick = function()
+   {
+    productImg.src = smallImg[2].src;
+   }
+   smallImg[3].onclick = function()
+   {
+    productImg.src = smallImg[3].src;
+   }
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
