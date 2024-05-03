@@ -71,6 +71,7 @@ p{
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
+    cursor: pointer;
 }
 .btn:hover{
     background: linear-gradient(120deg,#88e7ff 40%,#4479eb);

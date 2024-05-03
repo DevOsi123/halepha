@@ -14,18 +14,18 @@
     <div class="container"> 
     <div class="navbar">
     <div class="logo">
-        <a href="index.html" >    <img src="/pics/storelogo1.png" width="125px"> </a>
+        <a href="/html/pages/index.html" >    <img src="/pics/storelogo1.png" width="125px"> </a>
      </div>
         <nav>
             <ul id="menuitems">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="/html/pages/index.html">Home</a></li>
+                <li><a href="/html/pages/products.html">Products</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
-                <li><a href="account.html">Account</a></li>
+                <li><a href="/html/pages/account.html">Account</a></li>
             </ul>
         </nav>
-      <a href="cart.html"> <img src="/pics/cart.png" width="30px" height="30px"></a>
+      <a href="/html/pages/cart.html"> <img src="/pics/cart.png" width="30px" height="30px"></a>
         <img src="/pics/menu.png" class="menu-icon" 
         onclick="menutoggle()">
      </div>
@@ -53,7 +53,7 @@
                 <h4>$65</h4>
 
                 <input type="number" value="1">
-                <a href="" class="btn" onclick="alert('Your item have been added successfuly')">Add To Cart</a>
+                <button class="btn" id="addToCart" onclick="addToCart(event)"> Add To Cart </button>
                 <h3>Product Details</h3>
                 <br>
                 <p>Helps maintain healthy growth and development,Supports healthy brain function and concentration. </p>

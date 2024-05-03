@@ -25,7 +25,7 @@
                 <li><a href="/html/pages/account.html">Account</a></li>
             </ul>
         </nav>
-        <img src="/pics/cart.png" width="30px" height="30px">
+      <a href="/html/pages/cart.html">  <img src="/pics/cart.png" width="30px" height="30px"></a>
         <img src="/pics/menu.png" class="menu-icon" 
         onclick="menutoggle()">
      </div>
@@ -51,7 +51,7 @@
                 <h4>$25</h4>
 
                 <input type="number" value="1">
-                <a href="" class="btn" onclick="alert('Your item have been added successfuly')">Add To Cart</a>
+                <button class="btn" id="addToCart" onclick="addToCart(event)"> Add To Cart </button>
                 <h3>Product Details</h3>
                 <br>
                 <p> For the relief of Acidity,Heartburns, Flatulence<br>
